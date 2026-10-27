@@ -1,0 +1,14 @@
+# Adafruit Blinka provides the `board` / `busio` CircuitPython compatibility
+# layer on the Raspberry Pi.
+adafruit-blinka
+
+# 2x ADS1115 4-channel 16-bit ADC (8 analog inputs)
+adafruit-circuitpython-ads1x15
+
+# 2x MCP4728 4-channel 12-bit DAC (8 analog outputs)
+adafruit-circuitpython-mcp4728
+
+# WS2811 / WS2812 addressable LEDs.
+# On the Pi this pulls in rpi_ws281x, which drives the data line via DMA+PWM.
+adafruit-circuitpython-neopixel
+rpi_ws281x
